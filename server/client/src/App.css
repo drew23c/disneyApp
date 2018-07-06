@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed');
+
+.App {
+  text-align: left;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  background-color: turquoise;
+  height:100vh;
+}
+
+.App nav{
+  background-color: lightblue;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h1{
+  text-align: center;
+  font-family: 'PT Serif', serif;
+}
+.ratings{
+  margin-left:40%;
+}
+.movies{
+  margin-left:40%;
+}
+.form{
+  margin-left:40%;
+}
+.App ul li{
+  list-style-type: none;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
